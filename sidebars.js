@@ -8,7 +8,7 @@ module.exports = {
       type: 'category',
       label: 'API Specification',
       collapsed: false,
-      items: ['2.1.swagger-docs', '2.2.asset_pools','2.3.rewards','2.4.members','2.5.withdrawals','2.6.polls'],
+      items: ['2.1.swagger-docs', '2.2.asset_pools','2.3.rewards','2.4.members','2.5.withdrawals'],
     },{
       type: 'category',
       label: 'Network Details',
