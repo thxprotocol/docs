@@ -3,7 +3,7 @@ module.exports = {
       type: 'category',
       label: 'Getting Started',
       collapsed: false,
-      items: ['1.1.introduction', '1.2.example-usecase', '1.3.authorization', '1.4.example-request'],
+      items: ['1.1.introduction', '1.2.create-pool', '1.3.authorization', '1.4.example-request', '1.5.example-usecase'],
     },{
       type: 'category',
       label: 'API Specification',
@@ -13,7 +13,7 @@ module.exports = {
       type: 'category',
       label: 'Network Details',
       collapsed: false,
-      items: ['3.1.networks','3.2.service-status', '3.3.api-health'],
+      items: ['3.1.networks', '3.2.api-health'],
     }
   ]
 };
