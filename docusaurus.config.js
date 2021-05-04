@@ -12,7 +12,6 @@ module.exports = {
   favicon: 'img/favicon.ico',
   organizationName: 'thxprotocol', // Usually your GitHub org/user name.
   projectName: 'docs', // Usually your repo name.
-  plugins: ['@docusaurus/plugin-google-gtag'],
   themeConfig: {
     gtag: {
       trackingID: process.env.GTM,
