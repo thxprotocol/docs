@@ -24,6 +24,11 @@ module.exports = {
       },
       items: [
         {
+          href: 'https://thx.page.link/slack',
+          label: 'Support',
+          position: 'right'
+        },
+        {
           href: 'https://github.com/thxprotocol/',
           label: 'GitHub',
           position: 'right',
