@@ -10,8 +10,8 @@ module.exports = {
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'thxprotocol', // Usually your GitHub org/user name.
-  projectName: 'docs', // Usually your repo name.
+  organizationName: 'thxprotocol', 
+  projectName: 'docs', 
   themeConfig: {
     gtag: {
       trackingID: process.env.GTM,
@@ -24,8 +24,13 @@ module.exports = {
       },
       items: [
         {
+          href: 'https://discord.com/invite/TzbbSmkE7Y',
+          label: 'Discord',
+          position: 'right'
+        },
+        {
           href: 'https://thx.page.link/slack',
-          label: 'Support',
+          label: 'Slack',
           position: 'right'
         },
         {
@@ -61,10 +66,14 @@ module.exports = {
             {
               label: 'Medium',
               href: 'https://medium.com/thxprotocol',
-            },
+            }, 
             {
               label: 'Twitter',
               href: 'https://twitter.com/thxprotocol',
+            },
+            {
+              label: 'Discord',
+              href: 'https://discord.com/invite/TzbbSmkE7Y',
             },
             {
               label: 'Slack',
