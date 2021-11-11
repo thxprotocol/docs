@@ -20,6 +20,12 @@ module.exports = {
       label: 'Protocol Security',
       collapsed: false,
       items: ['4.1.security-audit', '4.2.torus-customauth']
+    },
+    {
+      type: 'category',
+      label: 'THX Network Token',
+      collapsed: false,
+      items: ['5.token']
     }
   ]
 };
