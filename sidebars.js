@@ -26,6 +26,12 @@ module.exports = {
       label: 'THX Network Token',
       collapsed: false,
       items: ['5.token']
+    },
+    {
+      type: 'category',
+      label: 'Conditional Rewards',
+      collapsed: false,
+      items: ['6.1.youtube','6.2.twitter']
     }
   ]
 };
