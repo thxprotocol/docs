@@ -27,11 +27,17 @@ module.exports = {
       collapsed: false,
       items: ['5.token']
     },
+    { 
+      type: 'category',
+      label: 'Conditional Rewards',
+      collapsed: false,
+      items: ['6.1.youtube','6.2.twitter']
+    },
     {
       type: 'category',
       label: 'Pricing',
       collapsed: false,
-      items: ['6.pricing']
-    }
+      items: ['7.pricing']
+    },
   ]
 };
